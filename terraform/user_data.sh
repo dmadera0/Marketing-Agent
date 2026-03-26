@@ -24,7 +24,7 @@ chmod +x /usr/local/lib/docker/cli-plugins/docker-compose
 
 # ── Clone repo (update URL to your actual repo) ───────────────────────────
 APP_DIR="/opt/buenavistaai"
-git clone https://github.com/YOUR_ORG/buenavistaai-content-engine.git "$APP_DIR" 2>/dev/null || true
+git clone https://github.com/BuenaVistaAISolutions/buenavistaai-content-engine.git "$APP_DIR" || true
 mkdir -p "$APP_DIR"
 chown -R ec2-user:ec2-user "$APP_DIR"
 
